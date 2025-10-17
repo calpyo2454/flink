@@ -32,4 +32,4 @@ jobs:
       - name: 🔧 Run specific Flink test
         run: |
           mvn -pl flink-table/flink-table-planner test \
-            -Dtest=org.apache.flink.table.planner.plan.rules.logical.PushPartitionIntoTableSourceScanRuleTest#testWithUdf
+            -Dtest=org.apache.flink.table.planner.plan.rules.logical#PushPartitionIntoTableSourceScanRuleTest#testWithUdf
